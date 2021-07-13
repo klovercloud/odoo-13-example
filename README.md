@@ -31,6 +31,7 @@ docker run -d -p 8069:8069 --name odoo --link db:db -e HOST=db -e USER=odoo -e P
 - Upload your extra addons inside the addons directory
 - Do Git Commit & Push
 - On-board your forked repository as Application
+- Set Application Port to `8069`
 - Assign minimum 1vCPU and 2.75GB RAM
 - Persistent Volume is required (Min 10 GB)
 - The following paths should be in the Volume Mount paths
