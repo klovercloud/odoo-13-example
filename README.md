@@ -31,7 +31,7 @@ docker run -d -p 8069:8069 --name odoo --link db:db -e HOST=db -e USER=odoo -e P
 - On-board your forked repository as Application
 - Assign minimum 1vCPU and 2.75GB RAM
 - Persistent Volume is required (Min 10 GB)
-- The following paths should be in the Volume Mount paths\
+- The following paths should be in the Volume Mount paths
 ```
 /var/lib/odoo
 ```
